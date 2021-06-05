@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "4f761a42-3822-4889-82a6-6dcdbc66acfc",
+		"name": "Cloud 2.0",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Home",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJraWQiOiJ2NFA5UFRQMGJlZkc3RzJTZ0UxNUVhekdvaDduV2ZjM3g0TmcrUFUrVFZJPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIwZDQ4OWI4MS1hNWIyLTQzMzQtYjViNy0xNjE1YzcxNzZhZjciLCJ6b25laW5mbyI6IkFtZXJpY2FcL0xvc19BbmdlbGVzIiwiY29nbml0bzpncm91cHMiOlsidXNlciJdLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLWVhc3QtMS5hbWF6b25hd3MuY29tXC91cy1lYXN0LTFfMmlwYllVaTF5IiwicGhvbmVfbnVtYmVyX3ZlcmlmaWVkIjp0cnVlLCJjb2duaXRvOnVzZXJuYW1lIjoidG9tdGVzdGVyIiwicHJlZmVycmVkX3VzZXJuYW1lIjoiZGV2dGVzdDAxIiwiZ2l2ZW5fbmFtZSI6IlRvbSIsImxvY2FsZSI6ImVuLVVTIiwiY3VzdG9tOmxpYnJhcnkiOiIwMDAwMDE3NS00Mjk2LTMyY2ItOTFiNi0yNjc4MGVjNjNlYjUiLCJhdWQiOiI2Zjlsbjg1cXVuc2FkcWpxcXFoaDBkYmY5MSIsImV2ZW50X2lkIjoiMzI1MDU5MDItNGQ4MS00ZTM0LTk2NWQtZTEzOWIwYWE4ZGQ3IiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE2MTk4MjA2OTQsIm5hbWUiOiJUb20gVGVzdGVyIiwibmlja25hbWUiOiJ0b20iLCJwaG9uZV9udW1iZXIiOiIrNDE5NzIyMTI4NyIsImN1c3RvbTpqd3RfdHlwZSI6IkxpYnJhcnlQYXRyb25KV1QiLCJleHAiOjE2MTk4MjQyOTQsImlhdCI6MTYxOTgyMDY5NSwiZmFtaWx5X25hbWUiOiJUZXN0ZXIiLCJlbWFpbCI6ImJsYWtlcnVuZEBjbG91ZGxpYnJhcnkuYXdzYXBwcy5jb20ifQ.TUaw8sK2rdUG9noqqvHTwDsChr09Q1s_glgmm708LsZb96dQrMTUoPHCSWZLbNdSlpJ1645VAkrVJSZzFG946Qxkjn6m6y_nG1mz71Tu54lub9AbYSOIbnNEhwza9okmKCk2IUHFE2oK_bq4dTwVWg1PYFjyxOlIcF4j7RkeGHVCmrK_vdF2ErWnLM6SRFR1Nuxp23TL2VHVnMLLuV4CZS-yaVRRvC4pvpZBM0K7bZFNtYl3U1w9LxPa0hcuvXCiyXfXxZRIqGNgHzBI_dzItS82M2h4IyM04rzBzxWWJgXB3T5IJQMUYKn-d1d1B-5hE4VXVKvnVwkeg9ba6eE4AA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://us-east.qa.cloudlibrary.net/library/web/patron/home",
+					"protocol": "https",
+					"host": [
+						"us-east",
+						"qa",
+						"cloudlibrary",
+						"net"
+					],
+					"path": [
+						"library",
+						"web",
+						"patron",
+						"home"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Borrow",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJraWQiOiJ2NFA5UFRQMGJlZkc3RzJTZ0UxNUVhekdvaDduV2ZjM3g0TmcrUFUrVFZJPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIwZDQ4OWI4MS1hNWIyLTQzMzQtYjViNy0xNjE1YzcxNzZhZjciLCJ6b25laW5mbyI6IkFtZXJpY2FcL0xvc19BbmdlbGVzIiwiY29nbml0bzpncm91cHMiOlsidXNlciJdLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLWVhc3QtMS5hbWF6b25hd3MuY29tXC91cy1lYXN0LTFfMmlwYllVaTF5IiwicGhvbmVfbnVtYmVyX3ZlcmlmaWVkIjp0cnVlLCJjb2duaXRvOnVzZXJuYW1lIjoidG9tdGVzdGVyIiwicHJlZmVycmVkX3VzZXJuYW1lIjoiZGV2dGVzdDAxIiwiZ2l2ZW5fbmFtZSI6IlRvbSIsImxvY2FsZSI6ImVuLVVTIiwiY3VzdG9tOmxpYnJhcnkiOiIwMDAwMDE3NS00Mjk2LTMyY2ItOTFiNi0yNjc4MGVjNjNlYjUiLCJhdWQiOiI2Zjlsbjg1cXVuc2FkcWpxcXFoaDBkYmY5MSIsImV2ZW50X2lkIjoiMzI1MDU5MDItNGQ4MS00ZTM0LTk2NWQtZTEzOWIwYWE4ZGQ3IiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE2MTk4MjA2OTQsIm5hbWUiOiJUb20gVGVzdGVyIiwibmlja25hbWUiOiJ0b20iLCJwaG9uZV9udW1iZXIiOiIrNDE5NzIyMTI4NyIsImN1c3RvbTpqd3RfdHlwZSI6IkxpYnJhcnlQYXRyb25KV1QiLCJleHAiOjE2MTk4MjQyOTQsImlhdCI6MTYxOTgyMDY5NSwiZmFtaWx5X25hbWUiOiJUZXN0ZXIiLCJlbWFpbCI6ImJsYWtlcnVuZEBjbG91ZGxpYnJhcnkuYXdzYXBwcy5jb20ifQ.TUaw8sK2rdUG9noqqvHTwDsChr09Q1s_glgmm708LsZb96dQrMTUoPHCSWZLbNdSlpJ1645VAkrVJSZzFG946Qxkjn6m6y_nG1mz71Tu54lub9AbYSOIbnNEhwza9okmKCk2IUHFE2oK_bq4dTwVWg1PYFjyxOlIcF4j7RkeGHVCmrK_vdF2ErWnLM6SRFR1Nuxp23TL2VHVnMLLuV4CZS-yaVRRvC4pvpZBM0K7bZFNtYl3U1w9LxPa0hcuvXCiyXfXxZRIqGNgHzBI_dzItS82M2h4IyM04rzBzxWWJgXB3T5IJQMUYKn-d1d1B-5hE4VXVKvnVwkeg9ba6eE4AA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://us-east.qa.cloudlibrary.net/library/web/patron/loan/borrowed",
+					"protocol": "https",
+					"host": [
+						"us-east",
+						"qa",
+						"cloudlibrary",
+						"net"
+					],
+					"path": [
+						"library",
+						"web",
+						"patron",
+						"loan",
+						"borrowed"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
